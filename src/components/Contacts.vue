@@ -12,7 +12,7 @@
     "
   >
     <div>
-      <img alt="Hitmarker" src="../assets/hitmarker2.png" />
+      <img class="py-3" alt="Hitmarker" src="../assets/hitmarker2.png" />
       <p class="text-textdark font-light text-sm mb-8">
         Open an account in minutes, get full Control for much longer.
       </p>
