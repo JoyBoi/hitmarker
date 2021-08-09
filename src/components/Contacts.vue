@@ -36,12 +36,12 @@
       <a href="#" class="text-md mb-4 text-textdark">About</a>
       <a href="#" class="text-md mb-4 text-textdark">Help/FAQ</a>
       <a href="#" class="text-md mb-4 text-textdark">Airline fees</a>
-      <a href="#" class="text-md mb-4 text-textdark">Company</a>
-      <a href="#" class="text-md mb-4 text-textdark">Contacts</a>
-      <a href="#" class="text-md mb-4 text-textdark">More</a>
-      <a href="#" class="text-md mb-4 text-textdark">Company</a>
-      <a href="#" class="text-md mb-4 text-textdark">Contacts</a>
-      <a href="#" class="text-md mb-4 text-textdark">More</a>
+      <a href="#" class="text-md mb-4 text-textdark">Career</a>
+      <a href="#" class="text-md mb-4 text-textdark">Press</a>
+      <a href="#" class="text-md mb-4 text-textdark">Airline</a>
+      <a href="#" class="text-md mb-4 text-textdark">Mobile</a>
+      <a href="#" class="text-md mb-4 text-textdark">Affiliate</a>
+      <a href="#" class="text-md mb-4 text-textdark">Low fare tips</a>
     </div>
 
     <div>Discover Our App</div>
