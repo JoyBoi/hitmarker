@@ -10,6 +10,7 @@
       py-2
       bg-primary
       rounded
+      space-x-6
     "
   >
     <div>

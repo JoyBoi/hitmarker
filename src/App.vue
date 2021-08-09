@@ -25,6 +25,7 @@
     </div>
     <promotecard />
     <whatpeoplethink />
+    <contacts />
     <Footer />
   </div>
 </template>
@@ -36,6 +37,7 @@ import Contentheader from "./components/Contentheader.vue";
 import Card from "./components/Card.vue";
 import Promotecard from "./components/Promotecard.vue";
 import Whatpeoplethink from "./components/Whatpeoplethink.vue";
+import Contacts from "./components/Contacts.vue";
 
 export default {
   name: "App",
@@ -46,6 +48,7 @@ export default {
     Card,
     Promotecard,
     Whatpeoplethink,
+    Contacts,
   },
   data() {
     return {
