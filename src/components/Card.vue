@@ -3,8 +3,9 @@
     <div
       class="max-w-sm rounded overflow-hidden shadow-lg h-36 hover:shadow-inner"
     >
-      <div class="px-6 py-4 h-32 flex flex-col justify-between">
+      <div class="px-6 py-4 h-32 w-72 flex flex-col justify-between">
         <div class="font-bold text-sm mb-2">{{ title }}</div>
+        <hr class="border-1 w-52 border-gray-300" />
         <div>
           <div class="flex py-2">
             <img

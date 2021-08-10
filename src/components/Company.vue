@@ -1,6 +1,6 @@
 <template>
   <div class="rounded max-w-4xl mx-auto absolute top-100 left-60 z-10">
-    <img alt="Company" src="../assets/social.png" class="px-15 py-15" />
+    <img alt="Company" src="../assets/social.png" class="" />
   </div>
 </template>
 

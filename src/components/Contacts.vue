@@ -12,7 +12,7 @@
       space-x-6
     "
   >
-    <div class="w-52 mr-12 flex flex-col justify-between h-48">
+    <div class="w-52 flex flex-col justify-between h-48">
       <img
         class="py-3 h-14 w-10"
         alt="Hitmarker"
