@@ -12,14 +12,15 @@ module.exports = {
                 // eslint-disable-line
                 'wpt': "url('/src/assets/WPT2.png')",
             }),
+            colors: {
+                herobg: "#19191B",
+                primary: "#FF6810",
+                textdark: "#2E2E46",
+                textlight: "#FFFFFF",
+                bggradientstart: "#FFEED9",
+            },
         },
-        colors: {
-            herobg: "#19191B",
-            primary: "#FF6810",
-            textdark: "#2E2E46",
-            textlight: "#FFFFFF",
-            bggradientstart: "#FFEED9",
-        },
+
     },
     variants: {
         extend: {},

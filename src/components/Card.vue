@@ -1,6 +1,8 @@
 <template>
   <div class="p-10">
-    <div class="max-w-sm rounded overflow-hidden shadow-lg h-36">
+    <div
+      class="max-w-sm rounded overflow-hidden shadow-lg h-36 hover:shadow-inner"
+    >
       <div class="px-6 py-4 h-32 flex flex-col justify-between">
         <div class="font-bold text-sm mb-2">{{ title }}</div>
         <div>

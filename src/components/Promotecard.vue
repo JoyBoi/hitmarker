@@ -1,6 +1,7 @@
 <template>
   <div
     class="
+      shadow-inner
       max-w-6xl
       mx-auto
       flex
@@ -21,7 +22,7 @@
         applications.
       </p>
     </div>
-    <a href="#">
+    <a class="transform transition duration-300 hover:scale-105" href="#">
       <img class="pl-20" alt="Next" src="../assets/next.png" />
     </a>
   </div>

@@ -7,10 +7,35 @@
       <div class="flex justify-between pb-10">
         <h1 class="text-4xl mr-20 font-bold text-textdark">What people say</h1>
         <div class="flex justify-between">
-          <a href="#" class="rounded-full h-14 w-14 bg-bggradientstart mx-3">
+          <a
+            href="#"
+            class="
+              rounded-full
+              h-14
+              w-14
+              bg-bggradientstart
+              mx-3
+              transform
+              transition
+              duration-300
+              hover:scale-105
+            "
+          >
             <img class="px-2 py-2" alt="left" src="../assets/Left.png" />
           </a>
-          <a href="#" class="rounded-full h-14 w-14 bg-primary">
+          <a
+            href="#"
+            class="
+              rounded-full
+              h-14
+              w-14
+              bg-primary
+              transform
+              transition
+              duration-300
+              hover:scale-105
+            "
+          >
             <img class="px-2 py-2" alt="right" src="../assets/Right.png" />
           </a>
         </div>

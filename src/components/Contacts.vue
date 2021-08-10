@@ -1,6 +1,7 @@
 <template>
   <div
     class="
+      mt-28
       max-w-6xl
       mx-auto
       flex
