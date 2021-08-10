@@ -11,43 +11,29 @@
       space-x-6
     "
   >
-    <div>
-      <img class="py-3" alt="Hitmarker" src="../assets/hitmarker2.png" />
+    <div class="w-52 mr-12 flex flex-col justify-between h-48">
+      <img
+        class="py-3 h-14 w-10"
+        alt="Hitmarker"
+        src="../assets/hitmarker2.png"
+      />
       <p class="text-textdark font-light text-sm mb-8">
         Open an account in minutes, get full Control for much longer.
       </p>
     </div>
-    <div
-      class="
-        max-w-6xl
-        mx-auto
-        p-10
-        grid grid-cols-1
-        sm:grid-cols-1
-        md:grid-cols-3
-        lg:grid-cols-3
-        xl:grid-cols-3
-        gap-5
-      "
-    >
-      <h1 class="text-xl font-bold mb-4 text-textdark">Company</h1>
-      <h1 class="text-xl font-bold mb-4 text-textdark">Contacts</h1>
-      <h1 class="text-xl font-bold mb-4 text-textdark">More</h1>
-      <a href="#" class="text-md mb-4 text-textdark">About</a>
-      <a href="#" class="text-md mb-4 text-textdark">Help/FAQ</a>
-      <a href="#" class="text-md mb-4 text-textdark">Airline fees</a>
-      <a href="#" class="text-md mb-4 text-textdark">Career</a>
-      <a href="#" class="text-md mb-4 text-textdark">Press</a>
-      <a href="#" class="text-md mb-4 text-textdark">Airline</a>
-      <a href="#" class="text-md mb-4 text-textdark">Mobile</a>
-      <a href="#" class="text-md mb-4 text-textdark">Affiliate</a>
-      <a href="#" class="text-md mb-4 text-textdark">Low fare tips</a>
-    </div>
-
-    <div>Discover Our App</div>
+    <footercompany />
+    <footercontact />
+    <more />
+    <discover />
   </div>
 </template>
 
 <script>
-export default {};
+import Discover from "./Discover.vue";
+import Footercompany from "./Footercompany.vue";
+import Footercontact from "./Footercontact.vue";
+import More from "./More.vue";
+export default {
+  components: { Footercompany, More, Footercontact, Discover },
+};
 </script>

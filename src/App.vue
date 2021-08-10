@@ -1,5 +1,15 @@
 <template>
-  <div id="app" class="flex flex-col h-screen justify-between">
+  <div
+    id="app"
+    class="
+      flex flex-col
+      h-screen
+      justify-between
+      bg-gradient-to-br
+      from-bggradientstart
+      to-white
+    "
+  >
     <Header />
     <Contentheader />
     <div
@@ -21,11 +31,14 @@
         :title="car.title"
         :company="car.company"
         :country="car.country"
+        :companyimg="car.companyimg"
+        :countryimg="car.countryimg"
       />
     </div>
     <promotecard />
     <whatpeoplethink />
     <contacts />
+    <hr class="border-1 max-w-6xl ml-24 border-gray-300" />
     <Footer />
   </div>
 </template>
@@ -57,76 +70,106 @@ export default {
           title: "Social Video Creator",
           company: "Pipeline.com",
           country: "Germany",
+          companyimg: "dp1.png",
+          countryimg: "Germany.png",
         },
         {
           title: "Esports Competition Coordinator",
           company: "Thescore",
           country: "Canada",
+          companyimg: "dp2.png",
+          countryimg: "Canada.png",
         },
         {
           title: "Graphic Designer",
           company: "Pipeline.com",
           country: "Irland",
+          companyimg: "dp3.png",
+          countryimg: "Nigeria.png",
         },
         {
           title: "Esports Competition Coordinator",
           company: "Thescore",
           country: "Canada",
+          companyimg: "dp2.png",
+          countryimg: "Canada.png",
         },
         {
           title: "Social Video Creator",
           company: "Pipeline.com",
           country: "Germany",
+          companyimg: "dp1.png",
+          countryimg: "Germany.png",
         },
         {
           title: "Graphic Designer",
           company: "Pipeline.com",
           country: "Irland",
+          companyimg: "dp3.png",
+          countryimg: "Nigeria.png",
         },
         {
           title: "Social Video Creator",
           company: "Pipeline.com",
           country: "Germany",
+          companyimg: "dp1.png",
+          countryimg: "Germany.png",
         },
         {
           title: "Graphic Designer",
           company: "Pipeline.com",
           country: "Irland",
+          companyimg: "dp3.png",
+          countryimg: "Nigeria.png",
         },
         {
           title: "Esports Competition Coordinator",
           company: "Thescore",
           country: "Canada",
+          companyimg: "dp2.png",
+          countryimg: "Canada.png",
         },
         {
           title: "Esports Competition Coordinator",
           company: "Thescore",
           country: "Canada",
+          companyimg: "dp2.png",
+          countryimg: "Canada.png",
         },
         {
           title: "Social Video Creator",
           company: "Pipeline.com",
           country: "Germany",
+          companyimg: "dp1.png",
+          countryimg: "Germany.png",
         },
         {
           title: "Graphic Designer",
           company: "Pipeline.com",
           country: "Irland",
+          companyimg: "dp3.png",
+          countryimg: "Nigeria.png",
         },
         {
           title: "Social Video Creator",
           company: "Pipeline.com",
           country: "Germany",
+          companyimg: "dp1.png",
+          countryimg: "Germany.png",
         },
         {
           title: "Graphic Designer",
           company: "Pipeline.com",
           country: "Irland",
+          companyimg: "dp3.png",
+          countryimg: "Nigeria.png",
         },
         {
           title: "Esports Competition Coordinator",
           company: "Thescore",
           country: "Canada",
+          companyimg: "dp2.png",
+          countryimg: "Canada.png",
         },
       ],
     };
