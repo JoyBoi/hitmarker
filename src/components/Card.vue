@@ -22,7 +22,7 @@
               :alt="countryimg"
               :src="require(`../assets/${countryimg}`)"
             />
-            <p class="text-gray-50 px-6 text-xs font-light">
+            <p class="text-gray-500 px-6 text-xs font-light">
               {{ country }}
             </p>
           </div>
