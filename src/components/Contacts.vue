@@ -9,7 +9,7 @@
       items-center
       px-4
       py-4
-      space-x-6
+      space-x-12
     "
   >
     <div class="w-52 flex flex-col justify-start h-48">
