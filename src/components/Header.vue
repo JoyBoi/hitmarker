@@ -132,7 +132,7 @@
       "
     >
       <div>
-        <h1 class="text-5xl font-bold mb-4 text-textlight">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4 text-textlight">
           The home of gaming and esports jobs
         </h1>
 
