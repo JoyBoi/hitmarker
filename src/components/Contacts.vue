@@ -26,7 +26,7 @@
         Open an account in minutes, get full Control for much longer.
       </p>
     </div>
-    <div class="flex justify-between items-center space-x-12">
+    <div class="flex justify-between items-center space-x-6 md:space-x-12">
       <footercompany />
       <footercontact />
       <more />

@@ -1,11 +1,13 @@
 <template>
   <div class="flex flex-col justify-between h-48">
-    <h1 class="text-xl font-bold text-textdark">Contacts</h1>
+    <h1 class="text-lg md:text-xl font-bold text-textdark">Contacts</h1>
     <div class="flex flex-col justify-between space-y-5">
       <a
         href="#"
         class="
-          text-md text-textdark
+          text-sm
+          md:text-md
+          text-textdark
           transform
           transition
           duration-300
@@ -16,7 +18,9 @@
       <a
         href="#"
         class="
-          text-md text-textdark
+          text-sm
+          md:text-md
+          text-textdark
           transform
           transition
           duration-300
@@ -27,7 +31,9 @@
       <a
         href="#"
         class="
-          text-md text-textdark
+          text-sm
+          md:text-md
+          text-textdark
           transform
           transition
           duration-300

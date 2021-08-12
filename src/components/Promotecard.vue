@@ -15,7 +15,7 @@
       mb-10
     "
   >
-    <div class="mr-52">
+    <div class="">
       <h1 class="text-xl font-bold mb-4 text-textlight">Promote Your job</h1>
       <p class="text-textlight font-light text-sm mb-3">
         Listings that are promoted average over 200% more views and 150% more
@@ -26,7 +26,7 @@
       class="
         transform
         transition
-        w-24
+        w-16
         h-16
         md:h-16
         md:w-16
