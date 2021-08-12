@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between h-48 mx-16 my-20">
+  <div class="flex flex-col justify-between h-48">
     <h1 class="text-xl font-bold text-textdark">Company</h1>
     <div class="flex flex-col justify-between space-y-5">
       <a

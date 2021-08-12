@@ -22,8 +22,20 @@
         applications.
       </p>
     </div>
-    <a class="transform transition duration-300 hover:scale-105" href="#">
-      <img class="pl-20" alt="Next" src="../assets/next.png" />
+    <a
+      class="
+        transform
+        transition
+        w-24
+        h-16
+        md:h-16
+        md:w-16
+        duration-300
+        hover:scale-105
+      "
+      href="#"
+    >
+      <img class="w-full h-full" alt="Next" src="../assets/next.png" />
     </a>
   </div>
 </template>

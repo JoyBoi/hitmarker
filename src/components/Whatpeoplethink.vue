@@ -1,12 +1,23 @@
 <template>
   <div
-    class="max-w-6xl mx-auto flex justify-center items-start px-4 py-4 mt-15"
+    class="
+      flex-col
+      md:flex-row
+      max-w-6xl
+      mx-auto
+      flex
+      justify-center
+      items-start
+      px-4
+      py-4
+      mt-15
+    "
   >
     <img class="mr-10" alt="WhatPeopleThink" src="../assets/wptimg.png" />
     <div class="mt-44">
-      <div class="flex justify-between pb-10">
+      <div class="flex flex-col md:flex-row justify-between pb-10">
         <h1 class="text-4xl mr-20 font-bold text-textdark">What people say</h1>
-        <div class="flex justify-between">
+        <div class="flex justify-between mt-3 md:mt-0">
           <a
             href="#"
             class="
@@ -40,8 +51,8 @@
           </a>
         </div>
       </div>
-      <div class="relative">
-        <div class="absolute -left-20 -bottom-30 bg-textlight">
+      <div class="flex justify-center md:relative">
+        <div class="md:absolute md:-left-20 md:-bottom-30 bg-textlight">
           <div
             class="
               z-10
@@ -55,7 +66,7 @@
               border-l-8 border-primary
             "
           >
-            <div class="flex justify-between">
+            <div class="flex flex-col md:flex-row justify-between">
               <div>
                 <h1 class="text-2xl font-bold text-textdark">
                   Darrell Steward
@@ -78,7 +89,7 @@
             </div>
           </div>
         </div>
-        <div class="-z-10 absolute -left-40 -bottom-80">
+        <div class="-z-10 hidden md:block md:absolute -left-40 -bottom-80">
           <img class="" alt="dots" src="../assets/Dots.png" />
         </div>
       </div>
