@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative self-center">
     <div
       class="
         rounded
@@ -9,6 +9,7 @@
         lg:absolute
         lg:top-100
         lg:left-60
+        lg:mx-auto
         z-10
       "
     >

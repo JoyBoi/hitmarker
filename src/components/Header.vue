@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-herobg pb-12">
+  <div class="bg-herobg pb-6 md:pb-12">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-4">
       <div>
         <img
@@ -132,11 +132,11 @@
       "
     >
       <div>
-        <h1 class="text-3xl md:text-5xl font-bold mb-4 text-textlight">
+        <h1 class="text-2xl md:text-5xl font-bold mb-4 text-textlight">
           The home of gaming and esports jobs
         </h1>
 
-        <p class="text-textlight text-sm mb-8">
+        <p class="text-textlight text-left text-sm mb-8">
           With over 8,000 active listings from more than 50 countries, Hitmarker
           is the largest gaming and esports jobs platform in the world. Find
           your dream career. Hire top talent. Make your mark.

@@ -14,15 +14,15 @@
     <Contentheader />
     <div
       class="
+        gap-1
         max-w-6xl
         mx-auto
-        p-10
         grid grid-cols-1
         sm:grid-cols-2
         md:grid-cols-3
         lg:grid-cols-3
         xl:grid-cols-3
-        gap-5
+        md:gap-5
       "
     >
       <card
@@ -38,7 +38,7 @@
     <promotecard />
     <whatpeoplethink />
     <contacts />
-    <hr class="border-1 max-w-6xl ml-24 border-gray-300" />
+    <hr class="border-1 max-w-sm md:max-w-6xl md:ml-24 border-gray-300" />
     <Footer />
   </div>
 </template>

@@ -14,9 +14,21 @@
     "
   >
     <img class="mr-10" alt="WhatPeopleThink" src="../assets/wptimg.png" />
-    <div class="mt-44">
+    <div class="mt-9 md:mt-44">
       <div class="flex flex-col md:flex-row justify-between pb-10">
-        <h1 class="text-4xl mr-20 font-bold text-textdark">What people say</h1>
+        <h1
+          class="
+            text-center
+            md:text-left
+            text-2xl
+            md:text-4xl
+            mr-20
+            font-bold
+            text-textdark
+          "
+        >
+          What people say
+        </h1>
         <div class="flex justify-between mt-3 md:mt-0">
           <a
             href="#"

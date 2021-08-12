@@ -1,7 +1,8 @@
 <template>
   <div
     class="
-      mt-36
+      mt-10
+      md:mt-36
       items-start
       flex-col
       md:flex-row
@@ -13,10 +14,10 @@
       md:items-center
       px-4
       py-4
-      space-x-12
+      md:space-x-12
     "
   >
-    <div class="w-52 ml-16 md:ml-0 flex flex-col justify-start h-48">
+    <div class="w-52 mx-auto md:ml-0 flex flex-col justify-start h-48">
       <img
         class="py-3 h-14 w-10"
         alt="Hitmarker"
@@ -26,7 +27,9 @@
         Open an account in minutes, get full Control for much longer.
       </p>
     </div>
-    <div class="flex justify-between items-center space-x-6 md:space-x-12">
+    <div
+      class="flex mx-auto justify-between items-center space-x-6 md:space-x-12"
+    >
       <footercompany />
       <footercontact />
       <more />
