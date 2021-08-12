@@ -1,6 +1,8 @@
 <template>
-  <div class="flex flex-col justify-between h-48 m-16">
-    <h1 class="text-xl font-bold mb-5 text-textdark">Discover Our App</h1>
+  <div class="flex flex-col justify-between h-48 my-16">
+    <h1 class="text-xl text-center md:text-left font-bold mb-5 text-textdark">
+      Discover Our App
+    </h1>
     <div class="flex justify-between space-x-3">
       <a
         href="#"
